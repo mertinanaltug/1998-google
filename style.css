@@ -1,0 +1,38 @@
+.start-img {
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 37% 20% 43%;
+    gap: 2px;
+    text-align: center;
+    margin-top: 2px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.footer-left{
+    background-color: #7EE5DA;
+    font-size: 18px;
+}
+.footer-center{
+    background-color: #70CCC2;
+}
+.footer-right{
+    background-color: #62B3AA;
+}
+.copyright{
+    text-align: center;
+    padding: 30px;
+}
